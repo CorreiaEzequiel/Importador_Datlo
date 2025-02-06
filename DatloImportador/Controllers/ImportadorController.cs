@@ -1,9 +1,7 @@
-﻿using DatloImportador.Data;
-using DatloImportador.Services;
+﻿using Dominio.Entities.DTOs;
+using Dominio.Interfaces.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using DatloImportador.Models;
-using DatloImportador.DTO;
 
 namespace DatloImportador.Controllers
 {

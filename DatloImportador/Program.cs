@@ -1,6 +1,8 @@
-using DatloImportador.Data;
-using DatloImportador.Repositories;
-using DatloImportador.Services;
+using Data.Context;
+using Data.Repository;
+using Dominio.Interfaces.Data;
+using Dominio.Interfaces.Services;
+using Dominio.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

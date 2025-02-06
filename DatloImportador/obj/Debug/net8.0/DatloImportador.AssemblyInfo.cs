@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DatloImportador")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c9bafb2c170da4aef15e543412711a7d8c242de")]
 [assembly: System.Reflection.AssemblyProductAttribute("DatloImportador")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DatloImportador")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatloImportador", "DatloImportador\DatloImportador.csproj", "{D43C80E8-4D32-45DF-88C3-0697193DD811}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "DatloImportador\WebAPI.csproj", "{D43C80E8-4D32-45DF-88C3-0697193DD811}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacao", "Aplicacao", "{5523298F-DBFC-4D88-80A2-5128ED94224F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{D34FBBB5-9DDD-4418-8264-A8AC31004082}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestrutura", "Infraestrutura", "{10F8A291-8F22-4094-ADB3-8A427886E0C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Dados\Data.csproj", "{8AA6FA69-0341-48AE-973E-1A2FA48FA293}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +25,21 @@ Global
 		{D43C80E8-4D32-45DF-88C3-0697193DD811}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D43C80E8-4D32-45DF-88C3-0697193DD811}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D43C80E8-4D32-45DF-88C3-0697193DD811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA6FA69-0341-48AE-973E-1A2FA48FA293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA6FA69-0341-48AE-973E-1A2FA48FA293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA6FA69-0341-48AE-973E-1A2FA48FA293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA6FA69-0341-48AE-973E-1A2FA48FA293}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D43C80E8-4D32-45DF-88C3-0697193DD811} = {5523298F-DBFC-4D88-80A2-5128ED94224F}
+		{196132A4-6D2A-4A6F-BAEB-7D694214C1D8} = {D34FBBB5-9DDD-4418-8264-A8AC31004082}
+		{8AA6FA69-0341-48AE-973E-1A2FA48FA293} = {10F8A291-8F22-4094-ADB3-8A427886E0C0}
 	EndGlobalSection
 EndGlobal

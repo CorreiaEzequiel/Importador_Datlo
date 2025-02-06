@@ -1,0 +1,13 @@
+C:\Files .Net\DatloImportador\Dominio\bin\Debug\net8.0\Dominio.deps.json
+C:\Files .Net\DatloImportador\Dominio\bin\Debug\net8.0\Dominio.dll
+C:\Files .Net\DatloImportador\Dominio\bin\Debug\net8.0\Dominio.pdb
+C:\Files .Net\DatloImportador\Dominio\obj\Debug\net8.0\Dominio.csproj.AssemblyReference.cache
+C:\Files .Net\DatloImportador\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Files .Net\DatloImportador\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+C:\Files .Net\DatloImportador\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+C:\Files .Net\DatloImportador\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Files .Net\DatloImportador\Dominio\obj\Debug\net8.0\Dominio.sourcelink.json
+C:\Files .Net\DatloImportador\Dominio\obj\Debug\net8.0\Dominio.dll
+C:\Files .Net\DatloImportador\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+C:\Files .Net\DatloImportador\Dominio\obj\Debug\net8.0\Dominio.pdb
+C:\Files .Net\DatloImportador\Dominio\obj\Debug\net8.0\ref\Dominio.dll
