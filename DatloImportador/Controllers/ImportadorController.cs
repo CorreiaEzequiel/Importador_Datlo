@@ -15,7 +15,11 @@ namespace DatloImportador.Controllers
         {
             _service = service;
         }
-
+        /// <summary>
+        /// recebe a planilha em csv e realiza a importação
+        /// </summary>
+        /// <param name="file"></param>
+        /// <returns></returns>
         [HttpPost("upload")]
         public async Task<ActionResult<ImportacaoResultadoDTO>> ImportarCsv(IFormFile file)
         {

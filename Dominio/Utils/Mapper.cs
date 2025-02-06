@@ -11,29 +11,31 @@ namespace Dominio.Utils
             {
                 Id = dataSet.Id,
                 Nome = dataSet.Nome,
-                Colunas = dataSet.Colunas.Select(col => MapearColunaParaDto(col)).ToList() ?? new List<ColunaResponseDTO>(),
                 Registros = dataSet.Registros.Select(reg => MapearRegistroParaDto(reg)).ToList() ?? new List<RegistroResponseDTO>()
             };
 
             return dto;
         }
+        
 
         public static RegistroResponseDTO MapearRegistroParaDto(Registro registro)
         {
             IDictionary<string, string> valores = new Dictionary<string, string>();
-            foreach (var valor in registro.Valores)
+
+            if (registro?.Valores != null) 
             {
-                valores.Add(valor.Chave, valor.Valor);
+                foreach (var valor in registro.Valores)
+                {
+                    valores.Add(valor.Chave, valor.Valor);
+                }
             }
 
-            RegistroResponseDTO dto = new RegistroResponseDTO
+            return new RegistroResponseDTO
             {
-                DatasetId = registro.DatasetId,
-                RegistroId = registro.Id,
+                DatasetId = registro?.DatasetId ?? 0, 
+                RegistroId = registro?.Id ?? 0, 
                 Valores = valores
             };
-
-            return dto;
         }
 
         public static Registro MapearDtoParaRegistro(RegistroRequestDTO registroRequestDto)

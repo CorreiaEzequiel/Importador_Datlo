@@ -41,9 +41,10 @@ namespace Data.Repository
         public async Task<IEnumerable<Registro>> FiltrarPorColuna(string nomeColuna, string valorBusca)
         {
             return await _contexto.Registros
-        .Where(x => x.Valores.Any(val => val.Chave == nomeColuna && val.Valor.Contains(valorBusca)))
-        .Include(x => x.Valores)
-        .ToListAsync();
+            .Where(x => x.Valores.Any(val =>
+             val.Chave.ToLower().Trim() == nomeColuna.ToLower().Trim() &&
+             val.Valor.ToLower().Trim().Contains(valorBusca.ToLower().Trim())))
+            .Include(x => x.Valores).ToListAsync();
         }
 
         public async Task Adicionar(Dataset dataset)

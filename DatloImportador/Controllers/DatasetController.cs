@@ -15,6 +15,10 @@ namespace DatloImportador.Controllers
         {
             _datasetService = datasetsService;
         }
+        /// <summary>
+        /// Lista todos os registros do conjunto de dados(dataset)
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("listar")]
         public async Task<ActionResult<IEnumerable<DatasetResponseDTO>>> ConsultarTodos()
         {
@@ -26,19 +30,27 @@ namespace DatloImportador.Controllers
             return Ok(datasets);
         }
 
-
+        /// <summary>
+        /// Busca o registro pelo id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("registro/{id}")]
-        public async Task<ActionResult<Dataset>> ConsultarPorId(int id)
+        public async Task<ActionResult<RegistroResponseDTO>> ConsultarPorId(int id)
         {
             var dataset = await _datasetService.ObterPorId(id);
-            if (dataset == null)
+            if (dataset == null || dataset.RegistroId == 0)
             {
                 return NotFound($"Registro com ID {id} não encontrado.");
             }
             return Ok(dataset);
         }
 
-
+        /// <summary>
+        /// cadastra um novo conjunto de dados(dataset)
+        /// </summary>
+        /// <param name="dataset"></param>
+        /// <returns></returns>
         [HttpPost("cadastrar")]
         public async Task<ActionResult<Dataset>> CriarDataSet([FromBody] Dataset dataset)
         {
@@ -52,6 +64,12 @@ namespace DatloImportador.Controllers
             return CreatedAtAction(nameof(ConsultarPorId), new { id = dataset.Id }, dataset);
         }
 
+        /// <summary>
+        /// cadastra um novo registro
+        /// </summary>
+        /// <param name="registro"></param>
+        /// <param name="datasetId"></param>
+        /// <returns></returns>
         [HttpPost("registro/cadastrar")]
         public async Task<ActionResult<RegistroResponseDTO>> AdicionarRegistro([FromBody] RegistroRequestDTO registro, int datasetId)
         {
@@ -71,7 +89,12 @@ namespace DatloImportador.Controllers
             }
 
         }
-
+        /// <summary>
+        /// faz um filtro pelo valor contido na coluna informada
+        /// </summary>
+        /// <param name="nomeColuna"></param>
+        /// <param name="valorBusca"></param>
+        /// <returns></returns>
         [HttpGet("filtrar-por-coluna")]
         public async Task<ActionResult<IEnumerable<Registro>>> FiltrarPorColuna([FromQuery] string nomeColuna, [FromQuery] string valorBusca)
         {
@@ -89,7 +112,12 @@ namespace DatloImportador.Controllers
             return Ok(registros);
         }
 
-
+        /// <summary>
+        /// atualiza o conjunto de dados(dataset)
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="dataset"></param>
+        /// <returns></returns>
         [HttpPut("{id}/atualizar")]
         public async Task<IActionResult> AtualizarDataset(int id, [FromBody] Dataset dataset)
         {
@@ -108,7 +136,11 @@ namespace DatloImportador.Controllers
             return Ok(dataset);
         }
 
-
+        /// <summary>
+        /// deleta  registro por id dentro do dataset
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}/deletar")]
         public async Task<IActionResult> DeletarDataset(int id)
         {
@@ -121,7 +153,11 @@ namespace DatloImportador.Controllers
             await _datasetService.Remover(id);
             return NoContent();
         }
-
+        /// <summary>
+        /// compara os os identificadores contidos na planilha e vincula aos dados existentes
+        /// </summary>
+        /// <param name="file"></param>
+        /// <returns></returns>
         [HttpPost("comparar")]
         public async Task<ActionResult> CompararPokemonPorIdentificador(IFormFile file)
         {

@@ -3,40 +3,16 @@
   "WorkspaceRootPath": "C:\\Files .Net\\DatloImportador\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8AA6FA69-0341-48AE-973E-1A2FA48FA293}|Dados\\Data.csproj|c:\\files .net\\datloimportador\\dados\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA6FA69-0341-48AE-973E-1A2FA48FA293}|Dados\\Data.csproj|solutionrelative:dados\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA6FA69-0341-48AE-973E-1A2FA48FA293}|Dados\\Data.csproj|c:\\files .net\\datloimportador\\dados\\migrations\\20250206025156_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA6FA69-0341-48AE-973E-1A2FA48FA293}|Dados\\Data.csproj|solutionrelative:dados\\migrations\\20250206025156_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|c:\\files .net\\datloimportador\\dominio\\services\\datasetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|solutionrelative:dominio\\services\\datasetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|c:\\files .net\\datloimportador\\dominio\\utils\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|solutionrelative:dominio\\utils\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D43C80E8-4D32-45DF-88C3-0697193DD811}|DatloImportador\\WebAPI.csproj|c:\\files .net\\datloimportador\\datloimportador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D43C80E8-4D32-45DF-88C3-0697193DD811}|DatloImportador\\WebAPI.csproj|solutionrelative:datloimportador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D43C80E8-4D32-45DF-88C3-0697193DD811}|DatloImportador\\WebAPI.csproj|c:\\files .net\\datloimportador\\datloimportador\\controllers\\importadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D43C80E8-4D32-45DF-88C3-0697193DD811}|DatloImportador\\WebAPI.csproj|solutionrelative:datloimportador\\controllers\\importadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D43C80E8-4D32-45DF-88C3-0697193DD811}|DatloImportador\\WebAPI.csproj|c:\\files .net\\datloimportador\\datloimportador\\controllers\\datasetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D43C80E8-4D32-45DF-88C3-0697193DD811}|DatloImportador\\WebAPI.csproj|solutionrelative:datloimportador\\controllers\\datasetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|c:\\files .net\\datloimportador\\dominio\\entities\\dtos\\registroresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entities\\dtos\\registroresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AA6FA69-0341-48AE-973E-1A2FA48FA293}|Dados\\Data.csproj|c:\\files .net\\datloimportador\\dados\\repository\\datasetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AA6FA69-0341-48AE-973E-1A2FA48FA293}|Dados\\Data.csproj|solutionrelative:dados\\repository\\datasetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|c:\\files .net\\datloimportador\\dominio\\interfaces\\data\\idatasetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\data\\idatasetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|c:\\files .net\\datloimportador\\dominio\\services\\datasetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|solutionrelative:dominio\\services\\datasetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|c:\\files .net\\datloimportador\\dominio\\interfaces\\services\\idatasetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,12 +27,32 @@
       "RelativeMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|solutionrelative:dominio\\services\\importacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AA6FA69-0341-48AE-973E-1A2FA48FA293}|Dados\\Data.csproj|c:\\files .net\\datloimportador\\dados\\repository\\datasetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA6FA69-0341-48AE-973E-1A2FA48FA293}|Dados\\Data.csproj|solutionrelative:dados\\repository\\datasetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8AA6FA69-0341-48AE-973E-1A2FA48FA293}|Dados\\Data.csproj|c:\\files .net\\datloimportador\\dados\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AA6FA69-0341-48AE-973E-1A2FA48FA293}|Dados\\Data.csproj|solutionrelative:dados\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|c:\\files .net\\datloimportador\\dominio\\utils\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|solutionrelative:dominio\\utils\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|c:\\files .net\\datloimportador\\dominio\\entities\\models\\coluna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entities\\models\\coluna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|c:\\files .net\\datloimportador\\dominio\\entities\\dtos\\registrorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entities\\dtos\\registrorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|c:\\files .net\\datloimportador\\dominio\\entities\\dtos\\importacaoresultadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entities\\dtos\\importacaoresultadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|c:\\files .net\\datloimportador\\dominio\\entities\\dtos\\datasetresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entities\\dtos\\datasetresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|c:\\files .net\\datloimportador\\dominio\\entities\\dtos\\colunaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196132A4-6D2A-4A6F-BAEB-7D694214C1D8}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entities\\dtos\\colunaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,105 +67,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dados\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Dados\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dados\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Dados\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "DatasetRepository.cs",
+              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dados\\Repository\\DatasetRepository.cs",
+              "RelativeDocumentMoniker": "Dados\\Repository\\DatasetRepository.cs",
+              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dados\\Repository\\DatasetRepository.cs",
+              "RelativeToolTip": "Dados\\Repository\\DatasetRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:52:32.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250206025156_Start.cs",
-              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dados\\Migrations\\20250206025156_Start.cs",
-              "RelativeDocumentMoniker": "Dados\\Migrations\\20250206025156_Start.cs",
-              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dados\\Migrations\\20250206025156_Start.cs",
-              "RelativeToolTip": "Dados\\Migrations\\20250206025156_Start.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:51:57.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Mapper.cs",
-              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dominio\\Utils\\Mapper.cs",
-              "RelativeDocumentMoniker": "Dominio\\Utils\\Mapper.cs",
-              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Utils\\Mapper.cs",
-              "RelativeToolTip": "Dominio\\Utils\\Mapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:48:03.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\DatloImportador\\Program.cs",
-              "RelativeDocumentMoniker": "DatloImportador\\Program.cs",
-              "ToolTip": "C:\\Files .Net\\DatloImportador\\DatloImportador\\Program.cs",
-              "RelativeToolTip": "DatloImportador\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:44:56.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ImportadorController.cs",
-              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\DatloImportador\\Controllers\\ImportadorController.cs",
-              "RelativeDocumentMoniker": "DatloImportador\\Controllers\\ImportadorController.cs",
-              "ToolTip": "C:\\Files .Net\\DatloImportador\\DatloImportador\\Controllers\\ImportadorController.cs",
-              "RelativeToolTip": "DatloImportador\\Controllers\\ImportadorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:44:32.418Z",
+              "WhenOpened": "2025-02-06T23:04:27.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DatasetController.cs",
-              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\DatloImportador\\Controllers\\DatasetController.cs",
-              "RelativeDocumentMoniker": "DatloImportador\\Controllers\\DatasetController.cs",
-              "ToolTip": "C:\\Files .Net\\DatloImportador\\DatloImportador\\Controllers\\DatasetController.cs",
-              "RelativeToolTip": "DatloImportador\\Controllers\\DatasetController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwB4AAAArAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dados\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Dados\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dados\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Dados\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:44:00.121Z",
+              "WhenOpened": "2025-02-06T23:04:17.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "RegistroResponseDTO.cs",
-              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dominio\\Entities\\DTOs\\RegistroResponseDTO.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entities\\DTOs\\RegistroResponseDTO.cs",
-              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Entities\\DTOs\\RegistroResponseDTO.cs",
-              "RelativeToolTip": "Dominio\\Entities\\DTOs\\RegistroResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Mapper.cs",
+              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dominio\\Utils\\Mapper.cs",
+              "RelativeDocumentMoniker": "Dominio\\Utils\\Mapper.cs",
+              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Utils\\Mapper.cs",
+              "RelativeToolTip": "Dominio\\Utils\\Mapper.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:42:40.889Z",
+              "WhenOpened": "2025-02-06T23:03:56.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IDatasetService.cs",
-              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dominio\\Interfaces\\Services\\IDatasetService.cs",
-              "RelativeDocumentMoniker": "Dominio\\Interfaces\\Services\\IDatasetService.cs",
-              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Interfaces\\Services\\IDatasetService.cs",
-              "RelativeToolTip": "Dominio\\Interfaces\\Services\\IDatasetService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ImportacaoService.cs",
+              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dominio\\Services\\ImportacaoService.cs",
+              "RelativeDocumentMoniker": "Dominio\\Services\\ImportacaoService.cs",
+              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Services\\ImportacaoService.cs",
+              "RelativeToolTip": "Dominio\\Services\\ImportacaoService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:42:06.274Z",
+              "WhenOpened": "2025-02-06T23:03:48.564Z",
               "EditorCaption": ""
             },
             {
@@ -180,74 +124,113 @@
               "RelativeDocumentMoniker": "Dominio\\Services\\DatasetService.cs",
               "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Services\\DatasetService.cs",
               "RelativeToolTip": "Dominio\\Services\\DatasetService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwEMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswD8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:41:25.857Z",
+              "WhenOpened": "2025-02-06T23:03:40.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "IImportacaoService.cs",
               "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dominio\\Interfaces\\Services\\IImportacaoService.cs",
               "RelativeDocumentMoniker": "Dominio\\Interfaces\\Services\\IImportacaoService.cs",
               "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Interfaces\\Services\\IImportacaoService.cs",
               "RelativeToolTip": "Dominio\\Interfaces\\Services\\IImportacaoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:41:07.893Z",
+              "WhenOpened": "2025-02-06T23:03:30.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ImportacaoService.cs",
-              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dominio\\Services\\ImportacaoService.cs",
-              "RelativeDocumentMoniker": "Dominio\\Services\\ImportacaoService.cs",
-              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Services\\ImportacaoService.cs",
-              "RelativeToolTip": "Dominio\\Services\\ImportacaoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IDatasetService.cs",
+              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dominio\\Interfaces\\Services\\IDatasetService.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\Services\\IDatasetService.cs",
+              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Interfaces\\Services\\IDatasetService.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\Services\\IDatasetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:40:00.53Z",
+              "WhenOpened": "2025-02-06T23:03:26.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DatasetRepository.cs",
-              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dados\\Repository\\DatasetRepository.cs",
-              "RelativeDocumentMoniker": "Dados\\Repository\\DatasetRepository.cs",
-              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dados\\Repository\\DatasetRepository.cs",
-              "RelativeToolTip": "Dados\\Repository\\DatasetRepository.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAA4wCUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:39:12.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "IDatasetRepository.cs",
               "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dominio\\Interfaces\\Data\\IDatasetRepository.cs",
               "RelativeDocumentMoniker": "Dominio\\Interfaces\\Data\\IDatasetRepository.cs",
               "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Interfaces\\Data\\IDatasetRepository.cs",
               "RelativeToolTip": "Dominio\\Interfaces\\Data\\IDatasetRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAvwA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:33:07.617Z",
+              "WhenOpened": "2025-02-06T23:03:22.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dados\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Dados\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dados\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "Dados\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Coluna.cs",
+              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dominio\\Entities\\Models\\Coluna.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entities\\Models\\Coluna.cs",
+              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Entities\\Models\\Coluna.cs",
+              "RelativeToolTip": "Dominio\\Entities\\Models\\Coluna.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:33:40.251Z",
+              "WhenOpened": "2025-02-06T23:02:13.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegistroRequestDTO.cs",
+              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dominio\\Entities\\DTOs\\RegistroRequestDTO.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entities\\DTOs\\RegistroRequestDTO.cs",
+              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Entities\\DTOs\\RegistroRequestDTO.cs",
+              "RelativeToolTip": "Dominio\\Entities\\DTOs\\RegistroRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T23:02:03.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ImportacaoResultadoDTO.cs",
+              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dominio\\Entities\\DTOs\\ImportacaoResultadoDTO.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entities\\DTOs\\ImportacaoResultadoDTO.cs",
+              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Entities\\DTOs\\ImportacaoResultadoDTO.cs",
+              "RelativeToolTip": "Dominio\\Entities\\DTOs\\ImportacaoResultadoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T23:02:01.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DatasetResponseDTO.cs",
+              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dominio\\Entities\\DTOs\\DatasetResponseDTO.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entities\\DTOs\\DatasetResponseDTO.cs",
+              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Entities\\DTOs\\DatasetResponseDTO.cs",
+              "RelativeToolTip": "Dominio\\Entities\\DTOs\\DatasetResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T23:01:57.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ColunaResponseDTO.cs",
+              "DocumentMoniker": "C:\\Files .Net\\DatloImportador\\Dominio\\Entities\\DTOs\\ColunaResponseDTO.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entities\\DTOs\\ColunaResponseDTO.cs",
+              "ToolTip": "C:\\Files .Net\\DatloImportador\\Dominio\\Entities\\DTOs\\ColunaResponseDTO.cs",
+              "RelativeToolTip": "Dominio\\Entities\\DTOs\\ColunaResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T23:01:54.502Z",
               "EditorCaption": ""
             }
           ]

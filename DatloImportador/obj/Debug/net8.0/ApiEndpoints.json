@@ -145,7 +145,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Dominio.Entities.Models.Dataset",
+        "Type": "Dominio.Entities.DTOs.RegistroResponseDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
