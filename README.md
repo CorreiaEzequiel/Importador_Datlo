@@ -17,3 +17,4 @@ Como rodar o projeto:
 Clone o repositório
 Abra o projeto na IDE de sua preferência
 Execute a aplicação
+Teste os endpoints da API utilizando o Swagger, disponível após a execução.
